@@ -34,8 +34,9 @@ pip install -r requirements.txt
 ```
 
 **Run (development / local)**
-run "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\sel_temp" for debug Google
-
+```powershell
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\sel_temp" for debug Google
+```
 Visit the debug-mode google for to test our following feature
 Press F for describe the webpage (MORE_DETAILED_CAPTION)
 Press G to read the webpage in detail (OCR)
