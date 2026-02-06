@@ -4,6 +4,7 @@ from pynput import keyboard
 import grid_based_screenshot
 import converter
 import time
+import haptics
 from threading import Thread
 import ID_selector,interaction,extract_feature
 import torch
@@ -35,7 +36,6 @@ processor = AutoProcessor.from_pretrained("microsoft/Florence-2-large", trust_re
 print("Model Loaded")
 
 def execute_typed_action():
-    """Handles the popup window in a separate thread."""
     root = tk.Tk()
     root.withdraw()
     root.attributes("-topmost", True) 
@@ -46,7 +46,7 @@ def execute_typed_action():
 
     if user_input:
         print(f"User wants to: {user_input}")
-        target_id = ID_selector.select_id_with_grammar(user_input)
+        target_id = ID_selector.select_id_semantically(user_input)
         
         if target_id is not None:
             interaction.smart_interact(target_id)
@@ -85,5 +85,7 @@ def button_press(key):
     except AttributeError:
         pass
 
+haptic_thread = Thread(target=haptics.monitor_mouse, daemon=True)
+haptic_thread.start()
 with keyboard.Listener(on_press=button_press) as listener:
     listener.join()
