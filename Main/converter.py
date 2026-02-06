@@ -13,4 +13,5 @@ def speechToText():
         recognizer.adjust_for_ambient_noise(source, duration=1)
         audio = recognizer.listen(source)
     text = recognizer.recognize_google(audio)
+    print("Recognized:", text)
     return text

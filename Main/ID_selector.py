@@ -2,6 +2,8 @@ import json
 import torch
 from sentence_transformers import SentenceTransformer, util
 
+EmbeddingModel = SentenceTransformer('all-MiniLM-L6-v2')
+
 def select_id_semantically(query, model , json_path="ui_map.json"):
     try:
         with open(json_path, "r") as f:
@@ -34,4 +36,4 @@ def select_id_semantically(query, model , json_path="ui_map.json"):
     return None
 
 if __name__ == "__main__":
-    print(f"Result ID: {select_id_semantically('RESET')}")
+    print(f"Result ID: {select_id_semantically('click on Google search',EmbeddingModel)}")
