@@ -1,0 +1,9 @@
+transformers
+torch
+sentence-transformers
+pynput
+pyautogui
+thefuzz
+Pillow
+accelerate
+safetensors

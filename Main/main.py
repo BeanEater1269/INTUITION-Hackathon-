@@ -14,6 +14,7 @@ from transformers import AutoProcessor, AutoModelForCausalLM
 start_time = time.perf_counter()
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
+is_busy = False
 def generate(image, processor, model, device, torch_dtype, prompt):
     
     t = time.time()
@@ -86,19 +87,17 @@ def button_press(key):
                 is_busy = True  # Lock it immediately
                 print("Execute Action triggered...")
                 try:
-                    # The script will PAUSE here until the user stops talking
                     text = converter.speechToText()
                     print(f"Captured: {text}")
                     if text:
                         print(f"User wants to: {text}")
                         target_id = ID_selector.select_id_semantically(text, EmbeddingModel)
-
                         if target_id is not None:
                             interaction.smart_interact(target_id)
                         else:
                             print("No matching element found.")
                 finally:
-                    is_busy = False # Unlock it so the next 'j' press works
+                    is_busy = False
 
     except AttributeError:
         pass
