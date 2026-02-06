@@ -56,10 +56,10 @@ def execute_typed_action():
             print("No matching element found.")
 
 def button_press(key):
+    global is_busy
     if key == keyboard.Key.esc:
         print("Closing Program")
         return False
-    is_busy = False
     try:
         if key.char == "f":
             print("Describe Webpage")
@@ -83,25 +83,22 @@ def button_press(key):
             if is_busy:
                 print("Iris is already working, please wait...")
             else:
+                is_busy = True  # Lock it immediately
                 print("Execute Action triggered...")
-
-                def task():
+                try:
+                    # The script will PAUSE here until the user stops talking
                     text = converter.speechToText()
                     print(f"Captured: {text}")
-                    global is_busy
-                    is_busy = True
-                    try:
-                        if text:
-                            print(f"User wants to: {text}")
-                            target_id = ID_selector.select_id_semantically(text,EmbeddingModel)
+                    if text:
+                        print(f"User wants to: {text}")
+                        target_id = ID_selector.select_id_semantically(text, EmbeddingModel)
 
-                            if target_id is not None:
-                                interaction.smart_interact(target_id)
-                            else:
-                                print("No matching element found.")
-                    finally:
-                        is_busy = False
-                Thread(target=task, daemon=True).start()
+                        if target_id is not None:
+                            interaction.smart_interact(target_id)
+                        else:
+                            print("No matching element found.")
+                finally:
+                    is_busy = False # Unlock it so the next 'j' press works
 
     except AttributeError:
         pass
