@@ -4,6 +4,7 @@ from pynput import keyboard
 import grid_based_screenshot
 import converter
 import time
+import asyncio
 import haptics
 from threading import Thread
 import ID_selector,interaction,extract_feature
@@ -52,7 +53,7 @@ def execute_typed_action():
         target_id = ID_selector.select_id_semantically(user_input,EmbeddingModel)
         
         if target_id is not None:
-            interaction.smart_interact(target_id)
+            asyncio.run(interaction.smart_interact(target_id))
         else:
             print("No matching element found.")
 
@@ -93,7 +94,7 @@ def button_press(key):
                         print(f"User wants to: {text}")
                         target_id = ID_selector.select_id_semantically(text, EmbeddingModel)
                         if target_id is not None:
-                            interaction.smart_interact(target_id)
+                            asyncio.run(interaction.smart_interact(target_id))
                         else:
                             print("No matching element found.")
                 finally:
