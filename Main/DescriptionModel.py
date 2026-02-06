@@ -8,10 +8,10 @@ import time
 # model = AutoModelForCausalLM.from_pretrained("microsoft/Florence-2-large", torch_dtype=torch_dtype, trust_remote_code=True).to(device)
 # processor = AutoProcessor.from_pretrained("microsoft/Florence-2-large", trust_remote_code=True)
 
-prompt = "<MORE_DETAILED_CAPTION>"
+
 
 image_path = "test-image.jpeg"
-def generate_description(image, processor, model, device, torch_dtype):
+def generate(image, processor, model, device, torch_dtype, prompt):
     
     t = time.time()
     inputs = processor(text=prompt, images=image, return_tensors="pt").to(device, torch_dtype)
@@ -26,6 +26,6 @@ def generate_description(image, processor, model, device, torch_dtype):
     )
     generated_text = processor.batch_decode(generated_ids, skip_special_tokens=False)[0]
 
-    parsed_answer = processor.post_process_generation(generated_text, task="<MORE_DETAILED_CAPTION>", image_size=(image.width, image.height))
+    parsed_answer = processor.post_process_generation(generated_text, task=prompt, image_size=(image.width, image.height))
     print(time.time()-t)
     return parsed_answer
