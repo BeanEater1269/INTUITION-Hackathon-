@@ -82,23 +82,7 @@ def button_press(key):
             extract_feature.scan_standard_chrome()
 
         if key.char == "j":
-            if is_busy:
-                print("Iris is already working, please wait...")
-            else:
-                is_busy = True  # Lock it immediately
-                print("Execute Action triggered...")
-                try:
-                    text = converter.speechToText()
-                    print(f"Captured: {text}")
-                    if text:
-                        print(f"User wants to: {text}")
-                        target_id = ID_selector.select_id_semantically(text, EmbeddingModel)
-                        if target_id is not None:
-                            asyncio.run(interaction.smart_interact(target_id))
-                        else:
-                            print("No matching element found.")
-                finally:
-                    is_busy = False
+            Thread(target=execute_typed_action, daemon=True).start()
 
     except AttributeError:
         pass
