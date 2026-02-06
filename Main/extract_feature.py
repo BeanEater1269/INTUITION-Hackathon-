@@ -3,6 +3,55 @@ import asyncio
 from playwright.async_api import async_playwright
 from pywinauto import Desktop
 
+async def scan_header_chrome():
+    print("\n[!] Scanning Chrome Header via OS hooks...")
+    try:
+        windows = Desktop(backend="uia").windows()
+        chrome = next((w for w in windows if "Google Chrome" in w.window_text()), None)
+        
+        if not chrome:
+            print("No Chrome window found.")
+            return None
+
+        # Fix: Get the actual window top coordinate
+        window_rect = chrome.rectangle()
+        window_top = window_rect.top
+        
+        # 180-200 is usually enough for tabs + address bar + bookmarks
+        # Anything below this is likely the sidebar or webpage
+        HEADER_HEIGHT_LIMIT = 200 
+        
+        elements = []
+        # Get buttons and links
+        all_descendants = chrome.descendants(control_type="Button") + \
+                          chrome.descendants(control_type="Hyperlink")
+
+        for i, el in enumerate(all_descendants):
+            if not el.is_visible(): continue
+            
+            rect = el.rectangle()
+            mid_y = rect.mid_point().y
+            
+            # --- THE FILTER ---
+            # If the button is too low, it's probably the sidebar or a browser extension pane
+            if mid_y > (window_top + HEADER_HEIGHT_LIMIT):
+                continue
+
+            elements.append({
+                "id": 9000 + i, # IDs start at 9000 to avoid clash with web elements
+                "category": "browser",
+                "text": el.window_text() or el.element_info.name or "Unnamed",
+                "x": rect.mid_point().x,
+                "y": mid_y
+            })
+        
+        print(f"Captured {len(elements)} browser-level elements.")
+        return elements
+
+    except Exception as e:
+        print(f"Pywinauto Error: {e}")
+        return None
+
 async def scan_existing_page():
     async with async_playwright() as p:
         # Connect to Chrome debug port
@@ -54,12 +103,17 @@ async def scan_existing_page():
             }).filter(e => e.visible && e.text !== "");
         }""")
 
-        CHROME_HEADER = [
+        MANUAL_HEADER = [
             {"id": 9001, "category": "browser", "text": "Back Button", "x": 30, "y": 55},
             {"id": 9002, "category": "browser", "text": "Forward Button", "x": 70, "y": 55},
             {"id": 9003, "category": "browser", "text": "Refresh", "x": 110, "y": 55},
             {"id": 9004, "category": "browser", "text": "Address Bar", "x": 500, "y": 55},
         ]
+
+        CHROME_HEADER = await scan_header_chrome()
+        if not CHROME_HEADER:
+            CHROME_HEADER = MANUAL_HEADER
+
         all_elements = elements + CHROME_HEADER
 
         with open("ui_map.json", "w") as f:
