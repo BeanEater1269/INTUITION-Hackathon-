@@ -8,6 +8,7 @@ import haptics
 from threading import Thread
 import ID_selector,interaction,extract_feature
 import torch
+from sentence_transformers import SentenceTransformer
 from transformers import AutoProcessor, AutoModelForCausalLM
 
 start_time = time.perf_counter()
@@ -33,6 +34,7 @@ def generate(image, processor, model, device, torch_dtype, prompt):
 
 model = AutoModelForCausalLM.from_pretrained("microsoft/Florence-2-large", torch_dtype=torch_dtype, trust_remote_code=True).to(device)
 processor = AutoProcessor.from_pretrained("microsoft/Florence-2-large", trust_remote_code=True)
+EmbeddingModel = SentenceTransformer('all-MiniLM-L6-v2')
 print("Model Loaded")
 
 def execute_typed_action():
@@ -46,7 +48,7 @@ def execute_typed_action():
 
     if user_input:
         print(f"User wants to: {user_input}")
-        target_id = ID_selector.select_id_semantically(user_input)
+        target_id = ID_selector.select_id_semantically(user_input,EmbeddingModel)
         
         if target_id is not None:
             interaction.smart_interact(target_id)

@@ -2,9 +2,7 @@ import json
 import torch
 from sentence_transformers import SentenceTransformer, util
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
-
-def select_id_semantically(query, json_path="ui_map.json"):
+def select_id_semantically(query, model , json_path="ui_map.json"):
     try:
         with open(json_path, "r") as f:
             elements = json.load(f)
