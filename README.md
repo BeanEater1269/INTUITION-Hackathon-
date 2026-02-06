@@ -41,3 +41,4 @@ Visit the debug-mode google for to test our following feature
 Press F for describe the webpage (MORE_DETAILED_CAPTION)
 Press G to read the webpage in detail (OCR)
 Press J to execute action you want
+Please note that "J" is still a prototype,  for now it requires user to type in the input rather than speech to text
