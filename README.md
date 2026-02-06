@@ -1,5 +1,5 @@
 # INTUITION-Hackathon-
-This repository contains the INTUITION Hackathon project. The app analyzes screenshots, provides descriptions and interactions, and includes optional haptic feedback on Windows.
+This repository contains the INTUITION Hackathon project by V SPRING team. The app analyzes screenshots, provides descriptions and interactions, and includes optional haptic feedback on Windows.
 
 **Repository Structure**
 - Main/: Main application modules and entrypoint
