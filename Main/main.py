@@ -1,8 +1,11 @@
+import tkinter as tk
+from tkinter import simpledialog
 from pynput import keyboard
 import grid_based_screenshot
 import converter
 import time
 from threading import Thread
+import ID_selector,interaction,extract_feature
 import torch
 from transformers import AutoProcessor, AutoModelForCausalLM
 
@@ -31,6 +34,25 @@ model = AutoModelForCausalLM.from_pretrained("microsoft/Florence-2-large", torch
 processor = AutoProcessor.from_pretrained("microsoft/Florence-2-large", trust_remote_code=True)
 print("Model Loaded")
 
+def execute_typed_action():
+    """Handles the popup window in a separate thread."""
+    root = tk.Tk()
+    root.withdraw()
+    root.attributes("-topmost", True) 
+    
+    user_input = simpledialog.askstring("Command", "What should I do?")
+
+    root.destroy() 
+
+    if user_input:
+        print(f"User wants to: {user_input}")
+        target_id = ID_selector.select_id_with_grammar(user_input)
+        
+        if target_id is not None:
+            interaction.smart_interact(target_id)
+        else:
+            print("No matching element found.")
+
 def button_press(key):
     if key == keyboard.Key.esc:
         print("Closing Program")
@@ -44,15 +66,22 @@ def button_press(key):
             desc = generate(img, processor, model, device, torch_dtype, '<MORE_DETAILED_CAPTION>')
             print(desc)
             Thread(target=converter.textToSpeech, args=(desc['<MORE_DETAILED_CAPTION>'],)).start()
+            extract_feature.scan_standard_chrome()
+
         if key.char == "g":
             print("Read Webpage")
             img = grid_based_screenshot.take_screenshot()
             # print(img)
             desc = generate(img, processor, model, device, torch_dtype, '<OCR>')
             print(desc)
-            Thread(target=converter.textToSpeech, args=(desc['<OCR>'],)).start()   
+            Thread(target=converter.textToSpeech, args=(desc['<OCR>'],)).start() 
+            extract_feature.scan_standard_chrome()
+
         if key.char == "j":
-            print("Execute Action")
+            print("Execute Action triggered...")
+            # START IN A THREAD so the listener doesn't freeze
+            Thread(target=execute_typed_action).start()
+
     except AttributeError:
         pass
 
