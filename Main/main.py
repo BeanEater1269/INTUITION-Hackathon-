@@ -80,7 +80,7 @@ def button_press(key):
             Thread(target=converter.textToSpeech, args=(desc['<OCR>'],)).start() 
             extract_feature.scan_standard_chrome()
 
-        if hasattr(key, 'char') and key.char == "j":
+        if key.char == "j":
             if is_busy:
                 print("Iris is already working, please wait...")
             else:
