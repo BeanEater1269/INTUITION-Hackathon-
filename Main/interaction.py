@@ -2,6 +2,7 @@ import json
 import asyncio
 import pyautogui
 from playwright.async_api import async_playwright
+from thefuzz import process
 
 async def smart_interact(target_id):
     try:
@@ -26,8 +27,6 @@ async def smart_interact(target_id):
         target_text = target_data['text']
         category = target_data.get('category', 'action')
         print(f"Targeting ID {target_id} ({category}): '{target_text}'")
-
-        # TRY PLAYWRIGHT FIRST (Auto-scrolls & handles Roles)
         locator = page.get_by_text(target_text, exact=False).first
         
         try:
@@ -40,15 +39,21 @@ async def smart_interact(target_id):
 
         # FALLBACK: PYAUTOGUI
         print("Falling back to Coordinate Click...")
-        OFFSET = 120 # Adjust this based on your specific browser header height
+        OFFSET = 240 
         
         if target_data['y'] < 0:
             print("Element is above viewport. Scrolling up...")
             pyautogui.scroll(1500)
             await asyncio.sleep(0.5)
+
+        if target_data['category'] == "browser":
+            # Pywinauto gives ABSOLUTE screen coordinates. No offset needed!
+            pyautogui.moveTo(target_data['x'], target_data['y'])
+            pyautogui.click(target_data['x'], target_data['y'])
+        else:
+            pyautogui.moveTo(target_data['x'], target_data['y'] + OFFSET, duration=0.8)
+            pyautogui.click()
             
-        pyautogui.moveTo(target_data['x'], target_data['y'] + OFFSET, duration=0.8)
-        pyautogui.click()
         return f"Clicked via coordinates at {target_data['x']}, {target_data['y'] + OFFSET}"
 
 if __name__ == "__main__":

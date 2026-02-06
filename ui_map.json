@@ -1,0 +1,1620 @@
+[
+    {
+        "id": 0,
+        "tag": "A",
+        "category": "link",
+        "text": "Skip to main content",
+        "destination": "internal",
+        "x": 66,
+        "y": -420,
+        "visible": true
+    },
+    {
+        "id": 1,
+        "tag": "A",
+        "category": "link",
+        "text": "Accessibility help",
+        "destination": "https://support.google.com/websearch/answer/181196?hl=en-SG",
+        "x": 66,
+        "y": -420,
+        "visible": true
+    },
+    {
+        "id": 2,
+        "tag": "A",
+        "category": "link",
+        "text": "Accessibility feedback",
+        "destination": "internal",
+        "x": 66,
+        "y": -392,
+        "visible": true
+    },
+    {
+        "id": 3,
+        "tag": "A",
+        "category": "link",
+        "text": "No Label",
+        "destination": "https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQPQgL",
+        "x": 101,
+        "y": 46,
+        "visible": true
+    },
+    {
+        "id": 5,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Clear",
+        "destination": "internal",
+        "x": 894,
+        "y": 36,
+        "visible": true
+    },
+    {
+        "id": 6,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Search by voice",
+        "destination": "internal",
+        "x": 943,
+        "y": 36,
+        "visible": true
+    },
+    {
+        "id": 7,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Search by image",
+        "destination": "internal",
+        "x": 983,
+        "y": 36,
+        "visible": true
+    },
+    {
+        "id": 8,
+        "tag": "BUTTON",
+        "category": "search",
+        "text": "Search",
+        "destination": "internal",
+        "x": 1029,
+        "y": 36,
+        "visible": true
+    },
+    {
+        "id": 34,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Settings",
+        "destination": "internal",
+        "x": 1346,
+        "y": 36,
+        "visible": true
+    },
+    {
+        "id": 35,
+        "tag": "A",
+        "category": "link",
+        "text": "Google apps",
+        "destination": "https://www.google.com.sg/intl/en/about/products?tab=wh",
+        "x": 1392,
+        "y": 36,
+        "visible": true
+    },
+    {
+        "id": 36,
+        "tag": "A",
+        "category": "link",
+        "text": "Sign in",
+        "destination": "https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DCoding%26rlz%3D1C1CHBF_enSG1114SG1114%26oq%3DCoding%26gs_lcrp%3DEgZjaHJvbWUyBggAEEUYOTINCAEQABiDARixAxiABDINCAIQABiDARixAxiABDIQCAMQLhjHARixAxjRAxiABDIQCAQQABiDARixAxiABBiKBTINCAUQABiDARixAxiABDIKCAYQABixAxiABDIHCAcQABiABDIQCAgQABiDARixAxiABBiKBTINCAkQLhiDARixAxiABNIBBzYwMGowajeoAgewAgHxBbEUIDnkeKOU8QWxFCA55HijlA%26sourceid%3Dchrome%26ie%3DUTF-8&ec=futura_srp_og_si_72236_p",
+        "x": 1459,
+        "y": 36,
+        "visible": true
+    },
+    {
+        "id": 37,
+        "tag": "A",
+        "category": "link",
+        "text": "AI Mode",
+        "destination": "/search?q=Coding&sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYenqWn-q4MFiFFtvJjTKeAVxqtD2OJgNgqfuyx0ErWHyBWBrNpSfo8CoL7Ht9sI_lUf5bA8gr_l0uTHVh8YDYiJUAfZE6lbMORq7BcoN45QqdRZCAnygk1zfALTDeetDIRI3adTxQ9bfKVQs4BHOYEF3mxedpQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ2J8OegQIDRAE",
+        "x": 238,
+        "y": -388,
+        "visible": true
+    },
+    {
+        "id": 38,
+        "tag": "A",
+        "category": "link",
+        "text": "All",
+        "destination": "internal",
+        "x": 297,
+        "y": -388,
+        "visible": true
+    },
+    {
+        "id": 39,
+        "tag": "A",
+        "category": "link",
+        "text": "Images",
+        "destination": "/search?sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYenqWn-q4MFiFFtvJjTKeAVxqtD2OJgNgqfuyx0ErWHyBWBrNpSfo8CoL7Ht9sI_lUf5bA8gr_l0uTHVh8YDYiJUAfZE6lbMORq7BcoN45QqdRZCAnygk1zfALTDeetDIRI3adTxQ9bfKVQs4BHOYEF3mxedpQ&q=Coding&sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQtKgLegQIDxAB",
+        "x": 353,
+        "y": -388,
+        "visible": true
+    },
+    {
+        "id": 40,
+        "tag": "A",
+        "category": "link",
+        "text": "Videos",
+        "destination": "/search?sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYenqWn-q4MFiFFtvJjTKeAVxqtD2OJgNgqfuyx0ErWHyBWBrNpSfo8CoL7Ht9sI_lUf5bA8gr_l0uTHVh8YDYiJUAfZE6lbMORq7BcoN45QqdRZCAnygk1zfALTDeetDIRI3adTxQ9bfKVQs4BHOYEF3mxedpQ&q=Coding&sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQtKgLegQIFRAB",
+        "x": 423,
+        "y": -388,
+        "visible": true
+    },
+    {
+        "id": 41,
+        "tag": "A",
+        "category": "link",
+        "text": "Short videos",
+        "destination": "/search?sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYenqWn-q4MFiFFtvJjTKeAVxqtD2OJgNgqfuyx0ErWHyBWBrNpSfo8CoL7Ht9sI_lUf5bA8gr_l0uTHVh8YDYiJUAfZE6lbMORq7BcoN45QqdRZCAnygk1zfALTDeetDIRI3adTxQ9bfKVQs4BHOYEF3mxedpQ&q=Coding&sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQs6gLegQIFBAB",
+        "x": 511,
+        "y": -388,
+        "visible": true
+    },
+    {
+        "id": 42,
+        "tag": "A",
+        "category": "link",
+        "text": "News",
+        "destination": "/search?sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&q=Coding&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYenqWn-q4MFiFFtvJjTKeAVxqtD2OJgNgqfuyx0ErWHyBWBrNpSfo8CoL7Ht9sI_lUf5bA8gr_l0uTHVh8YDYiJUAfZE6lbMORq7BcoN45QqdRZCAnygk1zfALTDeetDIRI3adTxQ9bfKVQs4BHOYEF3mxedpQ&sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ0pQJegQIFhAB",
+        "x": 594,
+        "y": -388,
+        "visible": true
+    },
+    {
+        "id": 43,
+        "tag": "A",
+        "category": "link",
+        "text": "Shopping",
+        "destination": "/search?sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYenqWn-q4MFiFFtvJjTKeAVxqtD2OJgNgqfuyx0ErWHyBWBrNpSfo8CoL7Ht9sI_lUf5bA8gr_l0uTHVh8YDYiJUAfZE6lbMORq7BcoN45QqdRZCAnygk1zfALTDeetDIRI3adTxQ9bfKVQs4BHOYEF3mxedpQ&q=Coding&ved=1t:220175&ictx=111",
+        "x": 667,
+        "y": -388,
+        "visible": true
+    },
+    {
+        "id": 44,
+        "tag": "DIV",
+        "category": "action",
+        "text": "More",
+        "destination": "internal",
+        "x": 749,
+        "y": -388,
+        "visible": true
+    },
+    {
+        "id": 49,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Tools",
+        "destination": "internal",
+        "x": 825,
+        "y": -388,
+        "visible": true
+    },
+    {
+        "id": 78,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 1302,
+        "y": -301,
+        "visible": true
+    },
+    {
+        "id": 79,
+        "tag": "DIV",
+        "category": "action",
+        "text": "No Label",
+        "destination": "internal",
+        "x": 783,
+        "y": -223,
+        "visible": true
+    },
+    {
+        "id": 80,
+        "tag": "A",
+        "category": "link",
+        "text": "Python",
+        "destination": "https://www.youtube.com/watch?v=79pKwdiqcwI",
+        "x": 570,
+        "y": -240,
+        "visible": true
+    },
+    {
+        "id": 81,
+        "tag": "A",
+        "category": "link",
+        "text": "JavaScript",
+        "destination": "https://www.codecademy.com/",
+        "x": 645,
+        "y": -240,
+        "visible": true
+    },
+    {
+        "id": 82,
+        "tag": "BUTTON",
+        "category": "action",
+        "text": "View related links",
+        "destination": "internal",
+        "x": 303,
+        "y": -144,
+        "visible": true
+    },
+    {
+        "id": 83,
+        "tag": "DIV",
+        "category": "action",
+        "text": "58s",
+        "destination": "internal",
+        "x": 527,
+        "y": 97,
+        "visible": true
+    },
+    {
+        "id": 84,
+        "tag": "A",
+        "category": "link",
+        "text": "Get Me Coding\nYouTube \u2022 13 Aug 2025",
+        "destination": "https://www.youtube.com/watch?v=bcznydM80f0&t=40",
+        "x": 527,
+        "y": 302,
+        "visible": true
+    },
+    {
+        "id": 85,
+        "tag": "BUTTON",
+        "category": "action",
+        "text": "View related links",
+        "destination": "internal",
+        "x": 405,
+        "y": 359,
+        "visible": true
+    },
+    {
+        "id": 86,
+        "tag": "A",
+        "category": "link",
+        "text": "AI-assisted tools",
+        "destination": "https://www.google.com/search?q=AI-assisted+tools&rlz=1C1CHBF_enSG1114SG1114&oq=Coding&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiDARixAxiABDINCAIQABiDARixAxiABDIQCAMQLhjHARixAxjRAxiABDIQCAQQABiDARixAxiABBiKBTINCAUQABiDARixAxiABDIKCAYQABixAxiABDIHCAcQABiABDIQCAgQABiDARixAxiABBiKBTINCAkQLhiDARixAxiABNIBBzYwMGowajeoAgewAgHxBbEUIDnkeKOU8QWxFCA55HijlA&sourceid=chrome&ie=UTF-8&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQgK4QegYIAQgEEAE",
+        "x": 673,
+        "y": 591,
+        "visible": true
+    },
+    {
+        "id": 87,
+        "tag": "A",
+        "category": "link",
+        "text": "prompting",
+        "destination": "https://www.google.com/search?q=prompting&rlz=1C1CHBF_enSG1114SG1114&oq=Coding&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiDARixAxiABDINCAIQABiDARixAxiABDIQCAMQLhjHARixAxjRAxiABDIQCAQQABiDARixAxiABBiKBTINCAUQABiDARixAxiABDIKCAYQABixAxiABDIHCAcQABiABDIQCAgQABiDARixAxiABBiKBTINCAkQLhiDARixAxiABNIBBzYwMGowajeoAgewAgHxBbEUIDnkeKOU8QWxFCA55HijlA&sourceid=chrome&ie=UTF-8&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQgK4QegYIAQgEEAI",
+        "x": 779,
+        "y": 591,
+        "visible": true
+    },
+    {
+        "id": 88,
+        "tag": "A",
+        "category": "link",
+        "text": "understanding systems",
+        "destination": "https://www.google.com/search?q=understanding+systems&rlz=1C1CHBF_enSG1114SG1114&oq=Coding&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiDARixAxiABDINCAIQABiDARixAxiABDIQCAMQLhjHARixAxjRAxiABDIQCAQQABiDARixAxiABBiKBTINCAUQABiDARixAxiABDIKCAYQABixAxiABDIHCAcQABiABDIQCAgQABiDARixAxiABBiKBTINCAkQLhiDARixAxiABNIBBzYwMGowajeoAgewAgHxBbEUIDnkeKOU8QWxFCA55HijlA&sourceid=chrome&ie=UTF-8&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQgK4QegYIAQgEEAM",
+        "x": 346,
+        "y": 615,
+        "visible": true
+    },
+    {
+        "id": 89,
+        "tag": "BUTTON",
+        "category": "action",
+        "text": "View related links",
+        "destination": "internal",
+        "x": 677,
+        "y": 615,
+        "visible": true
+    },
+    {
+        "id": 90,
+        "tag": "BUTTON",
+        "category": "action",
+        "text": "View related links",
+        "destination": "internal",
+        "x": 488,
+        "y": 655,
+        "visible": true
+    },
+    {
+        "id": 91,
+        "tag": "A",
+        "category": "link",
+        "text": "Python",
+        "destination": "https://www.google.com/search?q=Python&rlz=1C1CHBF_enSG1114SG1114&oq=Coding&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiDARixAxiABDINCAIQABiDARixAxiABDIQCAMQLhjHARixAxjRAxiABDIQCAQQABiDARixAxiABBiKBTINCAUQABiDARixAxiABDIKCAYQABixAxiABDIHCAcQABiABDIQCAgQABiDARixAxiABBiKBTINCAkQLhiDARixAxiABNIBBzYwMGowajeoAgewAgHxBbEUIDnkeKOU8QWxFCA55HijlA&sourceid=chrome&ie=UTF-8&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQgK4QegYIAQgGEAE",
+        "x": 259,
+        "y": 695,
+        "visible": true
+    },
+    {
+        "id": 92,
+        "tag": "A",
+        "category": "link",
+        "text": "JavaScript",
+        "destination": "https://www.google.com/search?q=JavaScript&rlz=1C1CHBF_enSG1114SG1114&oq=Coding&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiDARixAxiABDINCAIQABiDARixAxiABDIQCAMQLhjHARixAxjRAxiABDIQCAQQABiDARixAxiABBiKBTINCAUQABiDARixAxiABDIKCAYQABixAxiABDIHCAcQABiABDIQCAgQABiDARixAxiABBiKBTINCAkQLhiDARixAxiABNIBBzYwMGowajeoAgewAgHxBbEUIDnkeKOU8QWxFCA55HijlA&sourceid=chrome&ie=UTF-8&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQgK4QegYIAQgGEAM",
+        "x": 273,
+        "y": 755,
+        "visible": true
+    },
+    {
+        "id": 93,
+        "tag": "BUTTON",
+        "category": "action",
+        "text": "View related links",
+        "destination": "internal",
+        "x": 644,
+        "y": 755,
+        "visible": true
+    },
+    {
+        "id": 94,
+        "tag": "DIV",
+        "category": "action",
+        "text": "55s",
+        "destination": "internal",
+        "x": 527,
+        "y": 996,
+        "visible": true
+    },
+    {
+        "id": 95,
+        "tag": "A",
+        "category": "link",
+        "text": "Sahil & Sarra\nYouTube \u2022 20 Mar 2022",
+        "destination": "https://www.youtube.com/watch?v=79pKwdiqcwI&t=260",
+        "x": 527,
+        "y": 1202,
+        "visible": true
+    },
+    {
+        "id": 96,
+        "tag": "BUTTON",
+        "category": "action",
+        "text": "View related links",
+        "destination": "internal",
+        "x": 327,
+        "y": 1258,
+        "visible": true
+    },
+    {
+        "id": 97,
+        "tag": "BUTTON",
+        "category": "action",
+        "text": "View related links",
+        "destination": "internal",
+        "x": 743,
+        "y": 1406,
+        "visible": true
+    },
+    {
+        "id": 115,
+        "tag": "A",
+        "category": "link",
+        "text": "FASTEST Way to Learn Coding and ACTUALLY Get a Job. Opens in new tab.",
+        "destination": "https://www.youtube.com/watch?v=79pKwdiqcwI",
+        "x": 1097,
+        "y": 177,
+        "visible": true
+    },
+    {
+        "id": 116,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 987,
+        "y": 229,
+        "visible": true
+    },
+    {
+        "id": 117,
+        "tag": "A",
+        "category": "link",
+        "text": "What Is Coding and What Is It Used For | ComputerScience.org. Opens in new tab.",
+        "destination": "https://www.computerscience.org/resources/what-is-coding-used-for/",
+        "x": 1097,
+        "y": 332,
+        "visible": true
+    },
+    {
+        "id": 118,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 1061,
+        "y": 384,
+        "visible": true
+    },
+    {
+        "id": 119,
+        "tag": "A",
+        "category": "link",
+        "text": "Codecademy: Learn to Code - for Free. Opens in new tab.",
+        "destination": "https://www.codecademy.com/",
+        "x": 1097,
+        "y": 475,
+        "visible": true
+    },
+    {
+        "id": 120,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 1013,
+        "y": 515,
+        "visible": true
+    },
+    {
+        "id": 121,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Show all",
+        "destination": "internal",
+        "x": 1097,
+        "y": 575,
+        "visible": true
+    },
+    {
+        "id": 130,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Dive deeper in AI Mode",
+        "destination": "internal",
+        "x": 527,
+        "y": 1454,
+        "visible": true
+    },
+    {
+        "id": 135,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Submit positive feedback",
+        "destination": "internal",
+        "x": 765,
+        "y": 1506,
+        "visible": true
+    },
+    {
+        "id": 137,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Submit negative feedback",
+        "destination": "internal",
+        "x": 813,
+        "y": 1506,
+        "visible": true
+    },
+    {
+        "id": 144,
+        "tag": "A",
+        "category": "link",
+        "text": "Coding Robotics class for 4-12\nclass.hommeet.com\nhttps://class.hommeet.com",
+        "destination": "https://class.hommeet.com/aicodingsteam",
+        "x": 347,
+        "y": 1720,
+        "visible": true
+    },
+    {
+        "id": 145,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Why this ad?",
+        "destination": "internal",
+        "x": 410,
+        "y": 1691,
+        "visible": true
+    },
+    {
+        "id": 148,
+        "tag": "SPAN",
+        "category": "action",
+        "text": "Close",
+        "destination": "internal",
+        "x": 837,
+        "y": 394,
+        "visible": true
+    },
+    {
+        "id": 150,
+        "tag": "A",
+        "category": "link",
+        "text": "AI coding & robotics",
+        "destination": "https://class.hommeet.com/aicodingsteam?sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQwgUoAXoECBMQEA",
+        "x": 527,
+        "y": 1799,
+        "visible": true
+    },
+    {
+        "id": 151,
+        "tag": "A",
+        "category": "link",
+        "text": "Free Coding & Robotics Trial",
+        "destination": "/aclk?sa=L&pf=1&ai=DChsSEwipgK7sjsSSAxVipWYCHfZ-J2IYACICCAEQBhoCc20&co=1&ase=2&gclid=EAIaIQobChMIqYCu7I7EkgMVYqVmAh32fidiEAAYASADEgIcifD_BwE&cid=CAASugHkaO5AsuZyDcxKdeCix5Ng2tLsMFrft5orW4MhtE6rQ2OguV-5LMDhW0ip_yq39sp7nDDwsmxNhLiqrzstF5bRjSgI7kbOuXz3akNO5nll6lL2YtbQ28GxI8KcGLZHiN2XCp6oZBBwrPaV5oKBgcYjkIwwcwWHQbmGxtAb-zMg334vF11jgQvFyUNZMOIXPXxhz1f_qua1mXW3UYmqKXK6mfd6Kyzz212iZlSMZZefLXsoudUlf8sIo8s&cce=2&category=acrcp_v1_32&sig=AOD64_2KmmiWoGGBT6jXotUO4ZSFcky16w&q=&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQwgUoA3oECBMQEg&adurl=https://class.hommeet.com/aicodingsteam%3Fgad_source%3D1%26gad_campaignid%3D23451827480%26gbraid%3D0AAAABCZWLQOtED3cpdgHX6QBifebSKt3j%26gclid%3DEAIaIQobChMIqYCu7I7EkgMVYqVmAh32fidiEAAYASADEgIcifD_BwE",
+        "x": 527,
+        "y": 1850,
+        "visible": true
+    },
+    {
+        "id": 152,
+        "tag": "A",
+        "category": "link",
+        "text": "Free Extras",
+        "destination": "https://class.hommeet.com/aicodingsteam?sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQwgUoBXoECBMQFA#section-73d707e4",
+        "x": 527,
+        "y": 1901,
+        "visible": true
+    },
+    {
+        "id": 154,
+        "tag": "A",
+        "category": "link",
+        "text": "For Ambitious 12-18 Year Olds\nOxford Scholastica\nhttps://www.oxfordscholastica.com \u203a oxford \u203a summer-school",
+        "destination": "https://www.oxfordscholastica.com/oxford-summer-school/",
+        "x": 343,
+        "y": 2028,
+        "visible": true
+    },
+    {
+        "id": 155,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Why this ad?",
+        "destination": "internal",
+        "x": 588,
+        "y": 1999,
+        "visible": true
+    },
+    {
+        "id": 158,
+        "tag": "SPAN",
+        "category": "action",
+        "text": "Close",
+        "destination": "internal",
+        "x": 837,
+        "y": 394,
+        "visible": true
+    },
+    {
+        "id": 161,
+        "tag": "A",
+        "category": "link",
+        "text": "Coding for Kids\nRoboto\nhttps://www.roboto.sg",
+        "destination": "https://roboto.sg/weekly-coding-class",
+        "x": 280,
+        "y": 2174,
+        "visible": true
+    },
+    {
+        "id": 162,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Why this ad?",
+        "destination": "internal",
+        "x": 382,
+        "y": 2145,
+        "visible": true
+    },
+    {
+        "id": 165,
+        "tag": "SPAN",
+        "category": "action",
+        "text": "Close",
+        "destination": "internal",
+        "x": 837,
+        "y": 394,
+        "visible": true
+    },
+    {
+        "id": 168,
+        "tag": "A",
+        "category": "link",
+        "text": "MySkillsFuture.sg - Python Coding School - High-Quality Instructors\nintuitioninternational.com\nhttps://www.intuitioninternational.com",
+        "destination": "https://www.intuitioninternational.com/skillsfuture-eligible-pw",
+        "x": 514,
+        "y": 2298,
+        "visible": true
+    },
+    {
+        "id": 169,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Why this ad?",
+        "destination": "internal",
+        "x": 465,
+        "y": 2269,
+        "visible": true
+    },
+    {
+        "id": 172,
+        "tag": "SPAN",
+        "category": "action",
+        "text": "Close",
+        "destination": "internal",
+        "x": 837,
+        "y": 394,
+        "visible": true
+    },
+    {
+        "id": 175,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Hide sponsored results",
+        "destination": "internal",
+        "x": 537,
+        "y": 2390,
+        "visible": true
+    },
+    {
+        "id": 176,
+        "tag": "A",
+        "category": "link",
+        "text": "Codecademy: Learn to Code - for Free\n\nCodecademy\nhttps://www.codecademy.com",
+        "destination": "https://www.codecademy.com/",
+        "x": 384,
+        "y": 2461,
+        "visible": true
+    },
+    {
+        "id": 177,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 434,
+        "y": 2454,
+        "visible": true
+    },
+    {
+        "id": 178,
+        "tag": "A",
+        "category": "link",
+        "text": "Read more",
+        "destination": "https://www.codecademy.com/#:~:text=Grow%20in%20your%20career%20and,data%2C%20coding%2C%20cybersecurity%2C%20and%20more.",
+        "x": 405,
+        "y": 2531,
+        "visible": true
+    },
+    {
+        "id": 179,
+        "tag": "A",
+        "category": "link",
+        "text": "What Is Coding and What Is It Used For\n\nComputerScience.org\nhttps://www.computerscience.org \u203a resources \u203a what-is-...",
+        "destination": "https://www.computerscience.org/resources/what-is-coding-used-for/",
+        "x": 384,
+        "y": 2607,
+        "visible": true
+    },
+    {
+        "id": 180,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 579,
+        "y": 2600,
+        "visible": true
+    },
+    {
+        "id": 181,
+        "tag": "A",
+        "category": "link",
+        "text": "Read more",
+        "destination": "https://www.computerscience.org/resources/what-is-coding-used-for/#:~:text=Coding%20tells%20a%20machine%20which,apps%2C%20and%20other%20computer%2Dbased%20technologies.",
+        "x": 677,
+        "y": 2677,
+        "visible": true
+    },
+    {
+        "id": 182,
+        "tag": "A",
+        "category": "link",
+        "text": "\u817e\u8baf\u4e91Coding\n\nCODING DevOps\nhttps://coding.net",
+        "destination": "https://coding.net/",
+        "x": 295,
+        "y": 2753,
+        "visible": true
+    },
+    {
+        "id": 183,
+        "tag": "A",
+        "category": "link",
+        "text": "Translate this page",
+        "destination": "https://coding.net/",
+        "x": 407,
+        "y": 2747,
+        "visible": true
+    },
+    {
+        "id": 184,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 486,
+        "y": 2746,
+        "visible": true
+    },
+    {
+        "id": 185,
+        "tag": "A",
+        "category": "link",
+        "text": "Read more",
+        "destination": "https://coding.net/#:~:text=%E7%8E%B0%E5%9C%A8%E5%BC%80%E5%A7%8B%EF%BC%8C",
+        "x": 514,
+        "y": 2823,
+        "visible": true
+    },
+    {
+        "id": 186,
+        "tag": "A",
+        "category": "link",
+        "text": "Coding Games and Programming Challenges to Code Better\n\nCodinGame\nhttps://www.codingame.com",
+        "destination": "https://www.codingame.com/",
+        "x": 481,
+        "y": 2899,
+        "visible": true
+    },
+    {
+        "id": 187,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 426,
+        "y": 2892,
+        "visible": true
+    },
+    {
+        "id": 188,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 387,
+        "y": 3023,
+        "visible": true
+    },
+    {
+        "id": 189,
+        "tag": "DIV",
+        "category": "action",
+        "text": "What exactly does coding do?",
+        "destination": "internal",
+        "x": 537,
+        "y": 3072,
+        "visible": true
+    },
+    {
+        "id": 191,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Is coding very hard?",
+        "destination": "internal",
+        "x": 537,
+        "y": 3125,
+        "visible": true
+    },
+    {
+        "id": 193,
+        "tag": "DIV",
+        "category": "action",
+        "text": "How to start coding as a beginner?",
+        "destination": "internal",
+        "x": 537,
+        "y": 3178,
+        "visible": true
+    },
+    {
+        "id": 195,
+        "tag": "DIV",
+        "category": "action",
+        "text": "How can I teach myself to code?",
+        "destination": "internal",
+        "x": 537,
+        "y": 3231,
+        "visible": true
+    },
+    {
+        "id": 197,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Feedback",
+        "destination": "internal",
+        "x": 836,
+        "y": 3265,
+        "visible": true
+    },
+    {
+        "id": 199,
+        "tag": "DIV",
+        "category": "action",
+        "text": "No Label",
+        "destination": "internal",
+        "x": 312,
+        "y": 3465,
+        "visible": true
+    },
+    {
+        "id": 200,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 410,
+        "y": 3599,
+        "visible": true
+    },
+    {
+        "id": 202,
+        "tag": "DIV",
+        "category": "action",
+        "text": "No Label",
+        "destination": "internal",
+        "x": 537,
+        "y": 3465,
+        "visible": true
+    },
+    {
+        "id": 203,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 635,
+        "y": 3599,
+        "visible": true
+    },
+    {
+        "id": 205,
+        "tag": "DIV",
+        "category": "action",
+        "text": "No Label",
+        "destination": "internal",
+        "x": 761,
+        "y": 3465,
+        "visible": true
+    },
+    {
+        "id": 206,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 859,
+        "y": 3599,
+        "visible": true
+    },
+    {
+        "id": 208,
+        "tag": "DIV",
+        "category": "action",
+        "text": "No Label",
+        "destination": "internal",
+        "x": 312,
+        "y": 3727,
+        "visible": true
+    },
+    {
+        "id": 209,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 410,
+        "y": 3861,
+        "visible": true
+    },
+    {
+        "id": 211,
+        "tag": "DIV",
+        "category": "action",
+        "text": "No Label",
+        "destination": "internal",
+        "x": 537,
+        "y": 3727,
+        "visible": true
+    },
+    {
+        "id": 212,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 635,
+        "y": 3861,
+        "visible": true
+    },
+    {
+        "id": 214,
+        "tag": "DIV",
+        "category": "action",
+        "text": "No Label",
+        "destination": "internal",
+        "x": 761,
+        "y": 3727,
+        "visible": true
+    },
+    {
+        "id": 215,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 859,
+        "y": 3861,
+        "visible": true
+    },
+    {
+        "id": 217,
+        "tag": "DIV",
+        "category": "action",
+        "text": "No Label",
+        "destination": "internal",
+        "x": 312,
+        "y": 3989,
+        "visible": true
+    },
+    {
+        "id": 218,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 410,
+        "y": 4123,
+        "visible": true
+    },
+    {
+        "id": 220,
+        "tag": "DIV",
+        "category": "action",
+        "text": "No Label",
+        "destination": "internal",
+        "x": 537,
+        "y": 3989,
+        "visible": true
+    },
+    {
+        "id": 221,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 635,
+        "y": 4123,
+        "visible": true
+    },
+    {
+        "id": 223,
+        "tag": "DIV",
+        "category": "action",
+        "text": "No Label",
+        "destination": "internal",
+        "x": 761,
+        "y": 3989,
+        "visible": true
+    },
+    {
+        "id": 224,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 859,
+        "y": 4123,
+        "visible": true
+    },
+    {
+        "id": 225,
+        "tag": "A",
+        "category": "link",
+        "text": "All images",
+        "destination": "/search?sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&q=Coding&udm=2&source=univ&fir=nxEnfYx75NPRxM%252CJBJG-GRTrx2opM%252C_%253B_4IeH3ziuusmlM%252CsowcWswPOlJZiM%252C_%253Bf7k_LSMVVt40XM%252CzrHSIpJey31EsM%252C_%253BVPYQW0HbMBA0ZM%252CsPNnKortQiweGM%252C_%253BM8t8f5AFGxnFqM%252C7hHfFTnGinCDsM%252C_%253BWEF09l7UJzdUVM%252CwJEcecXu4aT5oM%252C_%253Bem7M0vNaLqpqTM%252CiIlLyyzMisBkTM%252C_%253Bq4qNKX3bmrjAwM%252CKZzwOpzniAXMRM%252C_%253BWNhjF37ht83z4M%252CpOaXDnYGyIuMZM%252C_&usg=AI4_-kSctQsXx120snDlbk1nuzcfdmWFVw&sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ7Al6BAhKEAU",
+        "x": 537,
+        "y": 4171,
+        "visible": true
+    },
+    {
+        "id": 227,
+        "tag": "A",
+        "category": "link",
+        "text": "Cod\u00e9dex | Start Your Coding Adventure \u22c6\u02d9\n\nCod\u00e9dex\nhttps://www.codedex.io",
+        "destination": "https://www.codedex.io/",
+        "x": 397,
+        "y": 4270,
+        "visible": true
+    },
+    {
+        "id": 228,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 399,
+        "y": 4263,
+        "visible": true
+    },
+    {
+        "id": 229,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 304,
+        "y": 4395,
+        "visible": true
+    },
+    {
+        "id": 230,
+        "tag": "A",
+        "category": "link",
+        "text": "I Finally Understand How to Learn Coding\nYouTube \u00b7 Web Developete\n11 Nov 2025",
+        "destination": "https://www.youtube.com/watch?v=TOlL02slaag",
+        "x": 621,
+        "y": 4469,
+        "visible": true
+    },
+    {
+        "id": 231,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 569,
+        "y": 4477,
+        "visible": true
+    },
+    {
+        "id": 232,
+        "tag": "DIV",
+        "category": "action",
+        "text": "9:41",
+        "destination": "internal",
+        "x": 285,
+        "y": 4469,
+        "visible": true
+    },
+    {
+        "id": 233,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Stop finishing tutorials and start building real projects using the 3C rule (clarify, create, check) to learn coding faster.",
+        "destination": "internal",
+        "x": 537,
+        "y": 4543,
+        "visible": true
+    },
+    {
+        "id": 236,
+        "tag": "A",
+        "category": "link",
+        "text": "How to Learn Coding Fast and Never Forget It\nYouTube \u00b7 Tech With Tim\n18 Jun 2025",
+        "destination": "https://www.youtube.com/watch?v=3E0dqwQwX4k",
+        "x": 621,
+        "y": 4629,
+        "visible": true
+    },
+    {
+        "id": 237,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 554,
+        "y": 4637,
+        "visible": true
+    },
+    {
+        "id": 238,
+        "tag": "DIV",
+        "category": "action",
+        "text": "13:04",
+        "destination": "internal",
+        "x": 285,
+        "y": 4629,
+        "visible": true
+    },
+    {
+        "id": 239,
+        "tag": "DIV",
+        "category": "action",
+        "text": "To learn coding fast, set a specific goal, create a roadmap, track progress daily, constantly challenge yourself, and build a system to connect concepts.",
+        "destination": "internal",
+        "x": 537,
+        "y": 4703,
+        "visible": true
+    },
+    {
+        "id": 248,
+        "tag": "A",
+        "category": "link",
+        "text": "The 30-Day Coding Roadmap for Beginners (Start Here)\nYouTube \u00b7 Web Developete\n3 Dec 2025",
+        "destination": "https://www.youtube.com/watch?v=JW75Yxx-jZs",
+        "x": 621,
+        "y": 4789,
+        "visible": true
+    },
+    {
+        "id": 249,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 569,
+        "y": 4797,
+        "visible": true
+    },
+    {
+        "id": 250,
+        "tag": "DIV",
+        "category": "action",
+        "text": "9:46",
+        "destination": "internal",
+        "x": 285,
+        "y": 4789,
+        "visible": true
+    },
+    {
+        "id": 251,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Learn to code with a simple 30-day plan using the IKEA method: clarify, create, and check to build confidence and escape tutorial hell.",
+        "destination": "internal",
+        "x": 537,
+        "y": 4863,
+        "visible": true
+    },
+    {
+        "id": 254,
+        "tag": "A",
+        "category": "link",
+        "text": "View all",
+        "destination": "/search?sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&udm=7&q=Coding&sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ8ccDKAJ6BAhLEAQ&biw=1536&bih=825&dpr=2",
+        "x": 537,
+        "y": 4919,
+        "visible": true
+    },
+    {
+        "id": 255,
+        "tag": "A",
+        "category": "link",
+        "text": "Introduction to coding - Coding: a Practical Guide\n\nUniversity of York\nhttps://subjectguides.york.ac.uk \u203a coding \u203a introduction",
+        "destination": "https://subjectguides.york.ac.uk/coding/introduction",
+        "x": 434,
+        "y": 5006,
+        "visible": true
+    },
+    {
+        "id": 256,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 565,
+        "y": 5003,
+        "visible": true
+    },
+    {
+        "id": 257,
+        "tag": "A",
+        "category": "link",
+        "text": "Read more",
+        "destination": "https://subjectguides.york.ac.uk/coding/introduction#:~:text=On%20this%20page%20we'll%20look,started%20with%20key%20coding%20concepts.",
+        "x": 483,
+        "y": 5079,
+        "visible": true
+    },
+    {
+        "id": 258,
+        "tag": "A",
+        "category": "link",
+        "text": "Code.org: Free K\u201312 Curriculum for Computer Science and AI\n\nCode.org\nhttps://code.org",
+        "destination": "https://code.org/",
+        "x": 485,
+        "y": 5152,
+        "visible": true
+    },
+    {
+        "id": 259,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 361,
+        "y": 5149,
+        "visible": true
+    },
+    {
+        "id": 260,
+        "tag": "A",
+        "category": "link",
+        "text": "What Is Coding? | Simple Explanation for Beginners, Kids, and ...\n\nYouTube\u00a0\u00b7\u00a0Get Me Coding\n5.5K+ views \u00b7 5 months ago",
+        "destination": "https://www.youtube.com/watch?v=bcznydM80f0",
+        "x": 493,
+        "y": 5298,
+        "visible": true
+    },
+    {
+        "id": 261,
+        "tag": "DIV",
+        "category": "action",
+        "text": "About this result",
+        "destination": "internal",
+        "x": 440,
+        "y": 5295,
+        "visible": true
+    },
+    {
+        "id": 262,
+        "tag": "DIV",
+        "category": "action",
+        "text": "19:34",
+        "destination": "internal",
+        "x": 295,
+        "y": 5386,
+        "visible": true
+    },
+    {
+        "id": 263,
+        "tag": "DIV",
+        "category": "action",
+        "text": "10\u00a0key moments in this video",
+        "destination": "internal",
+        "x": 371,
+        "y": 5458,
+        "visible": true
+    },
+    {
+        "id": 288,
+        "tag": "A",
+        "category": "link",
+        "text": "AI That Writes Code\nOna\nhttps://www.ona.com",
+        "destination": "https://ona.com/lp-background-agent",
+        "x": 299,
+        "y": 5634,
+        "visible": true
+    },
+    {
+        "id": 289,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Why this ad?",
+        "destination": "internal",
+        "x": 378,
+        "y": 5606,
+        "visible": true
+    },
+    {
+        "id": 292,
+        "tag": "SPAN",
+        "category": "action",
+        "text": "Close",
+        "destination": "internal",
+        "x": 837,
+        "y": 394,
+        "visible": true
+    },
+    {
+        "id": 294,
+        "tag": "A",
+        "category": "link",
+        "text": "Coding Program\ngeneralassemb.ly\nhttps://www.generalassemb.ly",
+        "destination": "https://generalassemb.ly/students/courses/software-engineering-bootcamp/singapore",
+        "x": 285,
+        "y": 5773,
+        "visible": true
+    },
+    {
+        "id": 295,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Why this ad?",
+        "destination": "internal",
+        "x": 426,
+        "y": 5745,
+        "visible": true
+    },
+    {
+        "id": 298,
+        "tag": "SPAN",
+        "category": "action",
+        "text": "Close",
+        "destination": "internal",
+        "x": 837,
+        "y": 394,
+        "visible": true
+    },
+    {
+        "id": 300,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Hide sponsored results",
+        "destination": "internal",
+        "x": 537,
+        "y": 5903,
+        "visible": true
+    },
+    {
+        "id": 303,
+        "tag": "A",
+        "category": "link",
+        "text": "Coding websites",
+        "destination": "/search?sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&q=Coding+websites&sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ1QJ6BAgtEAE",
+        "x": 370,
+        "y": 6003,
+        "visible": true
+    },
+    {
+        "id": 304,
+        "tag": "A",
+        "category": "link",
+        "text": "Coding for beginners",
+        "destination": "/search?sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&q=Coding+for+beginners&sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ1QJ6BAg_EAE",
+        "x": 370,
+        "y": 6063,
+        "visible": true
+    },
+    {
+        "id": 305,
+        "tag": "A",
+        "category": "link",
+        "text": "Coding code",
+        "destination": "/search?sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&q=Coding+code&sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ1QJ6BAg-EAE",
+        "x": 370,
+        "y": 6123,
+        "visible": true
+    },
+    {
+        "id": 306,
+        "tag": "A",
+        "category": "link",
+        "text": "What is coding salary",
+        "destination": "/search?sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&q=What+is+coding+salary&sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ1QJ6BAg7EAE",
+        "x": 370,
+        "y": 6183,
+        "visible": true
+    },
+    {
+        "id": 307,
+        "tag": "A",
+        "category": "link",
+        "text": "Coding for kids",
+        "destination": "/search?sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&q=Coding+for+kids&sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ1QJ6BAg1EAE",
+        "x": 704,
+        "y": 6003,
+        "visible": true
+    },
+    {
+        "id": 308,
+        "tag": "A",
+        "category": "link",
+        "text": "Coding practice",
+        "destination": "/search?sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&q=Coding+practice&sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ1QJ6BAg0EAE",
+        "x": 704,
+        "y": 6063,
+        "visible": true
+    },
+    {
+        "id": 309,
+        "tag": "A",
+        "category": "link",
+        "text": "Coding games",
+        "destination": "/search?sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&q=Coding+games&sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ1QJ6BAgzEAE",
+        "x": 704,
+        "y": 6123,
+        "visible": true
+    },
+    {
+        "id": 310,
+        "tag": "A",
+        "category": "link",
+        "text": "Coding app",
+        "destination": "/search?sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&q=Coding+app&sa=X&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ1QJ6BAgyEAE",
+        "x": 704,
+        "y": 6183,
+        "visible": true
+    },
+    {
+        "id": 311,
+        "tag": "A",
+        "category": "link",
+        "text": "2",
+        "destination": "/search?q=Coding&sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&ei=yHmFacrkOM64seMPr9WDgAc&start=10&sa=N&sstk=Af77f_csD6iRHYgtXEwNA5TXVFVQXX5I-U2KK2oIzbFkRK4POW2uuBQayW4yjNr_cseAMSpYpolTudyv7yPZKrFLTUW7N7NuuLc9RQ&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ8tMDegQIBRAE",
+        "x": 439,
+        "y": 6285,
+        "visible": true
+    },
+    {
+        "id": 312,
+        "tag": "A",
+        "category": "link",
+        "text": "3",
+        "destination": "/search?q=Coding&sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&ei=yHmFacrkOM64seMPr9WDgAc&start=20&sa=N&sstk=Af77f_csD6iRHYgtXEwNA5TXVFVQXX5I-U2KK2oIzbFkRK4POW2uuBQayW4yjNr_cseAMSpYpolTudyv7yPZKrFLTUW7N7NuuLc9RQ&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ8tMDegQIBRAG",
+        "x": 459,
+        "y": 6285,
+        "visible": true
+    },
+    {
+        "id": 313,
+        "tag": "A",
+        "category": "link",
+        "text": "4",
+        "destination": "/search?q=Coding&sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&ei=yHmFacrkOM64seMPr9WDgAc&start=30&sa=N&sstk=Af77f_csD6iRHYgtXEwNA5TXVFVQXX5I-U2KK2oIzbFkRK4POW2uuBQayW4yjNr_cseAMSpYpolTudyv7yPZKrFLTUW7N7NuuLc9RQ&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ8tMDegQIBRAI",
+        "x": 479,
+        "y": 6285,
+        "visible": true
+    },
+    {
+        "id": 314,
+        "tag": "A",
+        "category": "link",
+        "text": "5",
+        "destination": "/search?q=Coding&sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&ei=yHmFacrkOM64seMPr9WDgAc&start=40&sa=N&sstk=Af77f_csD6iRHYgtXEwNA5TXVFVQXX5I-U2KK2oIzbFkRK4POW2uuBQayW4yjNr_cseAMSpYpolTudyv7yPZKrFLTUW7N7NuuLc9RQ&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ8tMDegQIBRAK",
+        "x": 499,
+        "y": 6285,
+        "visible": true
+    },
+    {
+        "id": 315,
+        "tag": "A",
+        "category": "link",
+        "text": "6",
+        "destination": "/search?q=Coding&sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&ei=yHmFacrkOM64seMPr9WDgAc&start=50&sa=N&sstk=Af77f_csD6iRHYgtXEwNA5TXVFVQXX5I-U2KK2oIzbFkRK4POW2uuBQayW4yjNr_cseAMSpYpolTudyv7yPZKrFLTUW7N7NuuLc9RQ&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ8tMDegQIBRAM",
+        "x": 519,
+        "y": 6285,
+        "visible": true
+    },
+    {
+        "id": 316,
+        "tag": "A",
+        "category": "link",
+        "text": "7",
+        "destination": "/search?q=Coding&sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&ei=yHmFacrkOM64seMPr9WDgAc&start=60&sa=N&sstk=Af77f_csD6iRHYgtXEwNA5TXVFVQXX5I-U2KK2oIzbFkRK4POW2uuBQayW4yjNr_cseAMSpYpolTudyv7yPZKrFLTUW7N7NuuLc9RQ&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ8tMDegQIBRAO",
+        "x": 539,
+        "y": 6285,
+        "visible": true
+    },
+    {
+        "id": 317,
+        "tag": "A",
+        "category": "link",
+        "text": "8",
+        "destination": "/search?q=Coding&sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&ei=yHmFacrkOM64seMPr9WDgAc&start=70&sa=N&sstk=Af77f_csD6iRHYgtXEwNA5TXVFVQXX5I-U2KK2oIzbFkRK4POW2uuBQayW4yjNr_cseAMSpYpolTudyv7yPZKrFLTUW7N7NuuLc9RQ&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ8tMDegQIBRAQ",
+        "x": 559,
+        "y": 6285,
+        "visible": true
+    },
+    {
+        "id": 318,
+        "tag": "A",
+        "category": "link",
+        "text": "9",
+        "destination": "/search?q=Coding&sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&ei=yHmFacrkOM64seMPr9WDgAc&start=80&sa=N&sstk=Af77f_csD6iRHYgtXEwNA5TXVFVQXX5I-U2KK2oIzbFkRK4POW2uuBQayW4yjNr_cseAMSpYpolTudyv7yPZKrFLTUW7N7NuuLc9RQ&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ8tMDegQIBRAS",
+        "x": 579,
+        "y": 6285,
+        "visible": true
+    },
+    {
+        "id": 319,
+        "tag": "A",
+        "category": "link",
+        "text": "10",
+        "destination": "/search?q=Coding&sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&ei=yHmFacrkOM64seMPr9WDgAc&start=90&sa=N&sstk=Af77f_csD6iRHYgtXEwNA5TXVFVQXX5I-U2KK2oIzbFkRK4POW2uuBQayW4yjNr_cseAMSpYpolTudyv7yPZKrFLTUW7N7NuuLc9RQ&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ8tMDegQIBRAU",
+        "x": 599,
+        "y": 6285,
+        "visible": true
+    },
+    {
+        "id": 320,
+        "tag": "A",
+        "category": "link",
+        "text": "Next",
+        "destination": "/search?q=Coding&sca_esv=2717b4d29587c584&rlz=1C1CHBF_enSG1114SG1114&ei=yHmFacrkOM64seMPr9WDgAc&start=10&sa=N&sstk=Af77f_csD6iRHYgtXEwNA5TXVFVQXX5I-U2KK2oIzbFkRK4POW2uuBQayW4yjNr_cseAMSpYpolTudyv7yPZKrFLTUW7N7NuuLc9RQ&ved=2ahUKEwjK6KjsjsSSAxVOXGwGHa_qAHAQ8NMDegQIBRAW",
+        "x": 651,
+        "y": 6285,
+        "visible": true
+    },
+    {
+        "id": 322,
+        "tag": "A",
+        "category": "link",
+        "text": "Woodlands\u00a0-\u00a0From your IP address",
+        "destination": "#",
+        "x": 427,
+        "y": 6375,
+        "visible": true
+    },
+    {
+        "id": 325,
+        "tag": "DIV",
+        "category": "action",
+        "text": "Update location",
+        "destination": "internal",
+        "x": 606,
+        "y": 6375,
+        "visible": true
+    },
+    {
+        "id": 327,
+        "tag": "A",
+        "category": "link",
+        "text": "Help",
+        "destination": "https://support.google.com/websearch/?p=ws_results_help&hl=en-SG&fg=1",
+        "x": 238,
+        "y": 6416,
+        "visible": true
+    },
+    {
+        "id": 328,
+        "tag": "A",
+        "category": "link",
+        "text": "Send feedback",
+        "destination": "#",
+        "x": 327,
+        "y": 6416,
+        "visible": true
+    },
+    {
+        "id": 329,
+        "tag": "A",
+        "category": "link",
+        "text": "Privacy",
+        "destination": "https://policies.google.com/privacy?hl=en-SG&fg=1",
+        "x": 423,
+        "y": 6416,
+        "visible": true
+    },
+    {
+        "id": 330,
+        "tag": "A",
+        "category": "link",
+        "text": "Terms",
+        "destination": "https://policies.google.com/terms?hl=en-SG&fg=1",
+        "x": 492,
+        "y": 6416,
+        "visible": true
+    },
+    {
+        "id": 9001,
+        "category": "browser",
+        "text": "Back Button",
+        "x": 30,
+        "y": 120
+    },
+    {
+        "id": 9002,
+        "category": "browser",
+        "text": "Forward Button",
+        "x": 100,
+        "y": 120
+    },
+    {
+        "id": 9003,
+        "category": "browser",
+        "text": "Refresh",
+        "x": 170,
+        "y": 120
+    },
+    {
+        "id": 9004,
+        "category": "browser",
+        "text": "Address Bar",
+        "x": 320,
+        "y": 120
+    }
+]

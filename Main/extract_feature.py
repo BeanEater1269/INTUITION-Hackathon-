@@ -1,6 +1,7 @@
 import json
 import asyncio
 from playwright.async_api import async_playwright
+from pywinauto import Desktop
 
 async def scan_existing_page():
     async with async_playwright() as p:
@@ -17,7 +18,8 @@ async def scan_existing_page():
             
         context = browser.contexts[0]
         page = context.pages[0] 
-        
+
+        active_title = await page.title()
         print(f"Scanning current page: {await page.title()}")
 
         # Extract elements with Category Distinguishers
@@ -52,8 +54,16 @@ async def scan_existing_page():
             }).filter(e => e.visible && e.text !== "");
         }""")
 
+        CHROME_HEADER = [
+            {"id": 9001, "category": "browser", "text": "Back Button", "x": 30, "y": 55},
+            {"id": 9002, "category": "browser", "text": "Forward Button", "x": 70, "y": 55},
+            {"id": 9003, "category": "browser", "text": "Refresh", "x": 110, "y": 55},
+            {"id": 9004, "category": "browser", "text": "Address Bar", "x": 500, "y": 55},
+        ]
+        all_elements = elements + CHROME_HEADER
+
         with open("ui_map.json", "w") as f:
-            json.dump(elements, f, indent=4)
+            json.dump(all_elements, f, indent=4)
         
         print(f"Success! Captured {len(elements)} elements to ui_map.json")
 
